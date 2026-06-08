@@ -1,6 +1,5 @@
 # 👨‍💻 Diego Santacruz - 🌐 Portafolio profesional 
 # diego-santacruz.github.io
-Sitio web personal. Estudiante de Ingeniería de Software enfocado en Cloud Computing (GCP), DevOps, infraestructura Linux resiliente y automatización con IA.
 
 Welcome to the source code of my personal portfolio, hosted on [GitHub Pages](https://diego-santacruz.github.io).
 
