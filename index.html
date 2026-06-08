@@ -1,1 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Santacruz | Software Engineer</title>
+    <style>
+        /* CSS Integrado para un diseño profesional y limpio */
+        :root {
+            --primary-color: #0f172a;
+            --secondary-color: #3b82f6;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: -1px;
+        }
+        header p {
+            color: #94a3b8;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--secondary-color);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--secondary-color);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        .tags span {
+            background: #e2e8f0;
+            color: #475569;
+            font-size: 0.8rem;
+            padding: 3px 8px;
+            border-radius: 12px;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: #94a3b8;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        .contact-links a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>Diego Bayardo Santacruz</h1>
+        <p>Software Engineer | Cloud Architecture & Web3 | Tech Leader</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Software Engineer focused on building resilient tech infrastructure, open-source solutions, and leveraging technology for social impact. With a strong background in decentralized systems, cloud architecture, and data sovereignty, I aim to close the technological gap in rural and developing regions across Latin America.
+            </p>
+            <p>
+                My expertise spans across Cloud Computing, Proof of Concepts (PoC) for high-performance nodes, and FinTech integrations. I am driven by the philosophy that technology should empower communities and provide financial inclusion.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔬 Xiima Labs</h3>
+                    <p>High-Performance Nodes Infrastructure & Proof of Concept (PoC) research. Focused on data resilience, local cryptographic networks, and decentralized systems for sovereign data management.</p>
+                    <div class="tags">
+                        <span>Infrastructure</span> <span>Web3</span> <span>Ubuntu/Linux</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>🌾 CampoAmigo wallet</h3>
+                    <p>A FinTech solution designed to bank the unbanked agricultural sector in Colombia. Focuses on identity verification and tokenized promissory notes to provide liquidity and mitigate credit risk.</p>
+                    <div class="tags">
+                        <span>FinTech</span> <span>Tokenization</span> <span>Social Impact</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications & Milestones</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Google for Developers</h3>
+                    <p>Get Certified Program participant. Expertise in Gemini Enterprise Agent Ready (GEAR) and Google Cloud architecture.</p>
+                </div>
+                <div class="card">
+                    <h3>IBM</h3>
+                    <p>Artificial Intelligence architecture and agile iteration with AI. Focus on reducing time-to-market and extreme cost optimization.</p>
+                </div>
+                <div class="card">
+                    <h3>TalentoTech</h3>
+                    <p>Advanced Technology Bootcamp. Dedicated to solving high-impact regional challenges through software engineering.</p>
+                </div>
+                <div class="card">
+                    <h3>Microsoft Learn Student Ambassador</h3>
+                    <p>Community tech leader focusing on Azure cloud deployment, AI tools, and organizing technical workshops.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I am always open to discussing new projects, technical infrastructure architecture, or opportunities in the GovTech and FinTech spaces.</p>
+            <p class="contact-links">
+                📧 Email: <a href="mailto:dsantacruz@poligran.edu.co">Contact Me</a> <br>
+                💼 LinkedIn: <a href="https://linkedin.com/in/consejerodiego target="_blank">Diego Bayardo Santacruz</a> <br>
+                🐱 GitHub: <a href="https://github.com/politech-dev/diego-santacruz" target="_blank">github.com/politech-dev/diego-santacruz</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Diego Santacruz. Built with resilience and open-source tech.</p>
+    </footer>
+
+</body>
+</html>
