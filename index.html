@@ -1,139 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diego Santacruz | Software Engineer</title>
-    <style>
-        /* CSS Integrado para un diseño profesional y limpio */
-        :root {
-            --primary-color: #0f172a;
-            --secondary-color: #3b82f6;
-            --bg-color: #f8fafc;
-            --text-color: #334155;
-            --card-bg: #ffffff;
-        }
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-        }
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-            letter-spacing: -1px;
-        }
-        header p {
-            color: #94a3b8;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        nav {
-            background-color: #1e293b;
-            display: flex;
-            justify-content: center;
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: var(--secondary-color);
-        }
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 2rem;
-        }
-        section {
-            margin-bottom: 3rem;
-        }
-        h2 {
-            color: var(--primary-color);
-            border-bottom: 3px solid var(--secondary-color);
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-bottom: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            background: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            border-top: 4px solid var(--secondary-color);
-            transition: transform 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .card h3 {
-            margin-top: 0;
-            color: var(--primary-color);
-        }
-        .tags span {
-            background: #e2e8f0;
-            color: #475569;
-            font-size: 0.8rem;
-            padding: 3px 8px;
-            border-radius: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        footer {
-            background-color: var(--primary-color);
-            color: #94a3b8;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 2rem;
-        }
-        .contact-links a {
-            color: var(--secondary-color);
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Diego Bayardo Santacruz</h1>
-        <p>Software Engineer | Cloud Architecture & Web3 | Tech Leader</p>
-    </header>
-
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I am a passionate Software Engineer focused on building resilient tech infrastructure, open-source solutions, and leveraging technology for social impact. With a strong background in decentralized systems, cloud architecture, and data sovereignty, I aim to close the technological gap in rural and developing regions across Latin America.
+               
             </p>
             <p>
                 My expertise spans across Cloud Computing, Proof of Concepts (PoC) for high-performance nodes, and FinTech integrations. I am driven by the philosophy that technology should empower communities and provide financial inclusion.
@@ -150,52 +20,586 @@
                         <span>Infrastructure</span> <span>Web3</span> <span>Ubuntu/Linux</span>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>🌾 CampoAmigo</h3>
-                    <p>A FinTech solution designed to bank the unbanked agricultural sector in Colombia. Focuses on identity verification and tokenized promissory notes to provide liquidity and mitigate credit risk.</p>
-                    <div class="tags">
-                        <span>FinTech</span> <span>Tokenization</span> <span>Social Impact</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="certifications">
-            <h2>Certifications & Milestones</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Google for Developers</h3>
-                    <p>Get Certified Program participant. Expertise in Gemini Enterprise Agent Ready (GEAR) and Google Cloud architecture.</p>
-                </div>
-                <div class="card">
-                    <h3>IBM</h3>
-                    <p>Artificial Intelligence architecture and agile iteration with AI. Focus on reducing time-to-market and extreme cost optimization.</p>
-                </div>
-                <div class="card">
-                    <h3>TalentoTech</h3>
-                    <p>Advanced Technology Bootcamp. Dedicated to solving high-impact regional challenges through software engineering.</p>
-                </div>
-                <div class="card">
-                    <h3>Microsoft Learn Student Ambassador</h3>
-                    <p>Community tech leader focusing on Azure cloud deployment, AI tools, and organizing technical workshops.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>I am always open to discussing new projects, technical infrastructure architecture, or opportunities in the GovTech and FinTech spaces.</p>
-            <p class="contact-links">
-                📧 Email: <a href="mailto:dsantacruz@poligran.edu.co">Contact Me</a> <br>
-                💼 LinkedIn: <a href="https://linkedin.com/in/consejerodiego target="_blank">Diego Bayardo Santacruz</a> <br>
-                🐱 GitHub: <a href="https://github.com/politech-dev" target="_blank">github.com/politech-dev/diego-santacruz</a>
-            </p>
-        </section>
-    </div>
 
     <footer>
         <p>&copy; 2026 Diego Santacruz. Built with resilience and open-source tech.</p>
     </footer>
 
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Bayardo Santacruz Jurado | Ingeniería, Territorio &amp; I+D+i</title>
+  <meta name="description" content="Sitio personal de Diego Bayardo Santacruz Jurado (politech-dev). Ingeniería de Software, Cloud & Linux, Consejero Territorial de Planeación y Cofundador de Xiima Labs." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0B0F17',
+            surface: '#111723',
+            surfaceHover: '#161E2E',
+            borderSubtle: '#1E293B',
+            emeraldTech: '#10B981',
+            cyanTech: '#38BDF8',
+            slateText: '#F1F5F9',
+            slateMuted: '#94A3B8'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #0B0F17;
+      color: #F1F5F9;
+      background-image:
+        radial-gradient(circle at 15% 10%, rgba(16, 185, 129, 0.06), transparent 32%),
+        radial-gradient(circle at 85% 30%, rgba(56, 189, 248, 0.05), transparent 35%);
+    }
+    .grid-bg {
+      background-size: 36px 36px;
+      background-image: linear-gradient(to right, rgba(30, 41, 59, 0.25) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(30, 41, 59, 0.25) 1px, transparent 1px);
+    }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-emeraldTech/20 selection:text-emeraldTech">
+
+  <!-- Barra de Navegación Superior -->
+  <header class="sticky top-0 z-40 border-b border-borderSubtle/80 bg-obsidian/90 backdrop-blur-md">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <!-- Isotipo Topografía Modular + Identificador -->
+      <a href="#top" class="flex items-center gap-3 group">
+        <svg class="w-8 h-8 text-emeraldTech transition-transform duration-300 group-hover:scale-105" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Isotipo Diego Santacruz">
+          <polygon points="20,3 35,11.5 35,28.5 20,37 5,28.5 5,11.5" stroke="currentColor" stroke-width="2" fill="rgba(16,185,129,0.06)"/>
+          <polyline points="9,25 16,17 22,22 31,13" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="20" cy="3" r="2.2" fill="#10B981"/>
+          <circle cx="31" cy="13" r="2.2" fill="#38BDF8"/>
+          <circle cx="9" cy="25" r="2.2" fill="#10B981"/>
+        </svg>
+        <div class="flex flex-col">
+          <span class="font-mono text-sm font-semibold tracking-tight text-slateText">consejerodiego.me</span>
+          <span class="font-mono text-[10px] text-emeraldTech tracking-wider uppercase">DIEGO SANTACRUZ</span>
+        </div>
+      </a>
+
+      <!-- Enlaces de Navegación -->
+      <nav class="hidden md:flex items-center gap-6 font-mono text-xs text-slateMuted">
+        <a href="#ingenieria" class="hover:text-emeraldTech transition-colors">01. Ingeniería</a>
+        <a href="#territorio" class="hover:text-emeraldTech transition-colors">02. Territorio</a>
+        <a href="#ecosistema" class="hover:text-emeraldTech transition-colors">03. Ecosistema</a>
+        <a href="#bitacora" class="hover:text-emeraldTech transition-colors">04. Bitácora</a>
+      </nav>
+
+      <!-- Controles: Idioma + Contacto -->
+      <div class="flex items-center gap-2.5">
+        <button id="langToggle" type="button" class="font-mono text-xs px-2.5 py-1.5 rounded border border-borderSubtle bg-surface text-slateMuted hover:text-slateText hover:border-emeraldTech/50 transition-colors" title="Cambiar idioma / Switch language">
+          ES / EN
+        </button>
+        <a href="#contacto" class="font-mono text-xs px-3 py-1.5 rounded bg-emeraldTech/10 text-emeraldTech border border-emeraldTech/40 hover:bg-emeraldTech/20 transition-colors" data-i18n="nav_contact">
+          Contacto
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="max-w-5xl mx-auto px-4 sm:px-6">
+
+    <!-- 00 // HERO SECTION -->
+    <section class="py-16 sm:py-24 border-b border-borderSubtle/80 relative">
+      <div class="inline-flex items-center gap-2 font-mono text-xs px-3 py-1 rounded-full bg-surface border border-borderSubtle text-emeraldTech mb-6">
+        <span class="w-2 h-2 rounded-full bg-emeraldTech animate-pulse"></span>
+        <span data-i18n="hero_badge">Disponible para arquitectura cloud, I+D+i y alianzas estratégicas</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
+        Diego Bayardo Santacruz Jurado
+      </h1>
+
+      <p class="font-mono text-xs sm:text-sm text-cyanTech mt-3 leading-relaxed" data-i18n="hero_subtitle">
+        Ingeniero de Software en formación (Poligran) · Cloud &amp; Linux · Consejero Territorial de Planeación · Cofundador de Xiima Labs . Lider Poligran Bitcoin Club
+      </p>
+
+      <p class="mt-6 text-base sm:text-lg text-slateMuted max-w-3xl leading-relaxed" data-i18n="hero_pitch">
+        Diseño infraestructura resiliente en la nube, redes soberanas y flujos de automatización con Inteligencia Artificial, conectando la ingeniería de software con el desarrollo rural, la transición energética y las finanzas abiertas desde Nariño hacia ecosistemas globales. I am a passionate focused on building resilient tech infrastructure, open-source solutions, and leveraging technology for social impact. With a strong background in decentralized systems, cloud architecture, and data sovereignty, I am to close the technological gap in rural and developing regions across Latin America.
+      </p>
+
+      <!-- Botones Primarios -->
+      <div class="mt-8 flex flex-wrap items-center gap-3 font-mono text-xs">
+        <a href="#ingenieria" class="px-4 py-2.5 rounded bg-emeraldTech text-obsidian font-semibold hover:bg-emerald-400 transition-colors" data-i18n="cta_explore">
+          Explorar Arquitectura ↓
+        </a>
+        <a href="https://github.com/politech-dev" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded bg-surface border border-borderSubtle text-slateText hover:border-emeraldTech/60 transition-colors">
+          GitHub @politech-dev ↗
+        </a>
+        <a href="https://www.linkedin.com/in/consejerodiego" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded bg-surface border border-borderSubtle text-slateText hover:border-cyanTech/60 transition-colors">
+          LinkedIn ↗
+        </a>
+        <a href="https://x.com/ConsejeroDiego" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded bg-surface border border-borderSubtle text-slateText hover:border-slate-500 transition-colors">
+          X @ConsejeroDiego ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- 01 // INGENIERÍA, CLOUD & SISTEMAS RESILIENTES -->
+    <section id="ingenieria" class="py-16 border-b border-borderSubtle/80">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-2">
+        <div>
+          <span class="font-mono text-xs text-emeraldTech uppercase tracking-wider">01 // Core Técnico</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1" data-i18n="sec1_title">Ingeniería, Cloud &amp; Sistemas Resilientes</h2>
+        </div>
+        <span class="font-mono text-xs text-slateMuted">Arquitectura de Propósito Especial (APS)</span>
+      </div>
+
+      <!-- 3 Pilares Operativos -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/40 transition-colors">
+          <div class="font-mono text-xs text-cyanTech mb-2">[01.A] CLOUD &amp; DEVOPS</div>
+          <h3 class="text-lg font-semibold text-white mb-2" data-i18n="pillar1_title">Infraestructura &amp; Despliegue</h3>
+          <p class="text-sm text-slateMuted leading-relaxed" data-i18n="pillar1_desc">
+            Arquitectura sobre Google Cloud Platform (GCP), contenerización reproducible con Docker, flujos CI/CD en GitHub Actions y distribución estática de alta disponibilidad.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/40 transition-colors">
+          <div class="font-mono text-xs text-cyanTech mb-2">[01.B] LINUX &amp; REDES MESH</div>
+          <h3 class="text-lg font-semibold text-white mb-2" data-i18n="pillar2_title">Sistemas &amp; Conectividad Soberana</h3>
+          <p class="text-sm text-slateMuted leading-relaxed" data-i18n="pillar2_desc">
+            Administración de entornos Linux (Ubuntu, WSL2, Kali), despliegue de redes VPN/Mesh privadas sobre Headscale, seguridad operativa y diseño offline-first para baja conectividad.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/40 transition-colors">
+          <div class="font-mono text-xs text-cyanTech mb-2">[01.C] IA &amp; AUTOMATIZACIÓN</div>
+          <h3 class="text-lg font-semibold text-white mb-2" data-i18n="pillar3_title">Flujos Inteligentes &amp; Datos</h3>
+          <p class="text-sm text-slateMuted leading-relaxed" data-i18n="pillar3_desc">
+            Orquestación de agentes de IA, pipelines de procesamiento de datos territoriales e institucionales, y automatización de procesos operativos de alto impacto.
+          </p>
+        </div>
+      </div>
+
+      <!-- Repositorios Personales Destacados (@politech-dev) -->
+      <div class="mb-4 flex items-center justify-between">
+        <h3 class="font-mono text-sm font-semibold text-slateText" data-i18n="repos_heading">
+          Repositorios Personales Destacados (@politech-dev)
+        </h3>
+        <a href="https://github.com/politech-dev?tab=repositories" target="_blank" rel="noopener noreferrer" class="font-mono text-xs text-emeraldTech hover:underline">
+          Ver todos los repositorios →
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <article class="p-5 rounded-lg bg-obsidian border border-borderSubtle flex flex-col justify-between hover:border-slate-600 transition-colors">
+          <div>
+            <div class="flex items-center justify-between font-mono text-xs text-slateMuted mb-2">
+              <span>politech-dev / aps-core</span>
+              <span class="text-emeraldTech">Spec</span>
+            </div>
+            <h4 class="text-base font-semibold text-white mb-2">Arquitectura de Propósito Especial</h4>
+            <p class="text-xs text-slateMuted leading-relaxed">
+              Especificación formal, tesis de arquitectura de datos y modelado de sistemas resilientes orientados a soberanía tecnológica.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-borderSubtle/60 flex items-center justify-between font-mono text-[11px] text-cyanTech">
+            <span>Python · SQL · Docs</span>
+            <a href="https://github.com/politech-dev" target="_blank" rel="noopener noreferrer" class="hover:underline">Código ↗</a>
+          </div>
+        </article>
+
+        <article class="p-5 rounded-lg bg-obsidian border border-borderSubtle flex flex-col justify-between hover:border-slate-600 transition-colors">
+          <div>
+            <div class="flex items-center justify-between font-mono text-xs text-slateMuted mb-2">
+              <span>politech-dev / mesh-net-kit</span>
+              <span class="text-emeraldTech">Infra</span>
+            </div>
+            <h4 class="text-base font-semibold text-white mb-2">Headscale &amp; Linux Node Provisioner</h4>
+            <p class="text-xs text-slateMuted leading-relaxed">
+              Scripts de despliegue automatizado en Docker y Ubuntu para interconexión cifrada entre nodos distribuidos y entornos de campo.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-borderSubtle/60 flex items-center justify-between font-mono text-[11px] text-cyanTech">
+            <span>Docker · Bash · Headscale</span>
+            <a href="https://github.com/politech-dev" target="_blank" rel="noopener noreferrer" class="hover:underline">Código ↗</a>
+          </div>
+        </article>
+
+        <article class="p-5 rounded-lg bg-obsidian border border-borderSubtle flex flex-col justify-between hover:border-slate-600 transition-colors">
+          <div>
+            <div class="flex items-center justify-between font-mono text-xs text-slateMuted mb-2">
+              <span>politech-dev / diego-santacruz.github.io</span>
+              <span class="text-emeraldTech">Web</span>
+            </div>
+            <h4 class="text-base font-semibold text-white mb-2">Sitio Personal &amp; Bitácora Estática</h4>
+            <p class="text-xs text-slateMuted leading-relaxed">
+              Arquitectura web minimalista de ultra bajo peso desplegada con CI/CD en GitHub Pages y SSL personalizado bajo dominio .me.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-borderSubtle/60 flex items-center justify-between font-mono text-[11px] text-cyanTech">
+            <span>Astro · Tailwind · Actions</span>
+            <a href="https://github.com/politech-dev/diego-santacruz.github.io" target="_blank" rel="noopener noreferrer" class="hover:underline">Repo ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 02 // LIDERAZGO TERRITORIAL & INCIDENCIA INSTITUCIONAL -->
+    <section id="territorio" class="py-16 border-b border-borderSubtle/80">
+      <span class="font-mono text-xs text-emeraldTech uppercase tracking-wider">02 // Impacto Público &amp; Social</span>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1 mb-8" data-i18n="sec2_title">Liderazgo Territorial &amp; Incidencia Institucional</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle">
+          <div class="flex items-center justify-between mb-3">
+            <span class="font-mono text-xs px-2.5 py-0.5 rounded bg-emeraldTech/10 text-emeraldTech border border-emeraldTech/30">
+              Incidencia Pública
+            </span>
+            <span class="font-mono text-xs text-slateMuted">Taminango, Nariño</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Consejero Territorial de Planeación (CTP)</h3>
+          <p class="text-sm text-slateMuted leading-relaxed mb-4">
+            Participación en la construcción, seguimiento y articulación de políticas públicas y planes de desarrollo territorial, impulsando agendas de conectividad rural, transición energética justa e innovación productiva para el campo nariñense.
+          </p>
+          <ul class="font-mono text-xs text-slateText space-y-1.5 border-t border-borderSubtle pt-3">
+            <li>• Planeación participativa y gobernanza territorial</li>
+            <li>• Articulación institucional público-privada y académica</li>
+            <li>• Estrategias de energía y desarrollo rural sostenible</li>
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle">
+          <div class="flex items-center justify-between mb-3">
+            <span class="font-mono text-xs px-2.5 py-0.5 rounded bg-cyanTech/10 text-cyanTech border border-cyanTech/30">
+              Apropiación Tecnológica
+            </span>
+            <span class="font-mono text-xs text-slateMuted">Comunidad &amp; Salud</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Alfabetización Digital y Financiera en Territorio</h3>
+          <p class="text-sm text-slateMuted leading-relaxed mb-4">
+            Diseño y facilitación de talleres prácticos sobre herramientas digitales abiertas, seguridad operativa básica e inclusión financiera junto a organizaciones regionales y comunitarias.
+          </p>
+          <ul class="font-mono text-xs text-slateText space-y-1.5 border-t border-borderSubtle pt-3">
+            <li>• Articulación con ParqueSoft Nariño y ecosistemas regionales</li>
+            <li>• Proyectos de modernización y formación en IPS Vida con Dios</li>
+            <li>• Pedagogía práctica para productores rurales y jóvenes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 // ECOSISTEMA, EMPRENDIMIENTO & PROYECCIÓN GLOBAL (REGLA DE ORO) -->
+    <section id="ecosistema" class="py-16 border-b border-borderSubtle/80">
+      <div class="mb-8">
+        <span class="font-mono text-xs text-emeraldTech uppercase tracking-wider">03 // Organizaciones &amp; Red Global</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1" data-i18n="sec3_title">Ecosistema, Emprendimiento &amp; Proyección Global</h2>
+        <p class="text-sm text-slateMuted mt-2 max-w-2xl">
+          Iniciativas fundadas y cofundadas con gobernanza e infraestructura técnica independiente de mi portafolio personal.
+        </p>
+      </div>
+
+      <!-- Tarjeta Principal: Xiima Labs -->
+      <div class="p-6 sm:p-8 rounded-xl bg-gradient-to-br from-surface to-obsidian border border-emeraldTech/40 mb-6">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+          <div>
+            <div class="font-mono text-xs text-emeraldTech mb-1">COFUNDADOR · ARQUITECTURA, ESTRATEGIA &amp; TERRITORIO</div>
+            <h3 class="text-2xl font-bold text-white">Xiima Labs — Laboratorio de Soberanía Digital y Territorio</h3>
+          </div>
+          <div class="flex flex-wrap gap-2.5 font-mono text-xs">
+            <a href="https://xiimalab.vercel.app" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded bg-emeraldTech text-obsidian font-semibold hover:bg-emerald-400 transition-colors">
+              xiimalab.vercel.app ↗
+            </a>
+            <a href="https://github.com/Xiima-Labs" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded bg-obsidian border border-borderSubtle text-slateText hover:border-emeraldTech/60 transition-colors">
+              GitHub Org ↗
+            </a>
+          </div>
+        </div>
+
+        <p class="text-sm sm:text-base text-slateMuted leading-relaxed mb-5 max-w-3xl">
+          Laboratorio binacional de I+D+i (cofundado junto a San, CTO en Brasil) dedicado a desarrollar infraestructura tecnológica en Agrotech, energía modular y finanzas abiertas. Lideramos el piloto rural <strong class="text-white font-medium">CampoAmigo</strong>, integrando rieles abiertos sobre <span class="font-mono text-xs text-cyanTech">Bitcoin / Liquid</span> y <span class="font-mono text-xs text-cyanTech">Stellar / Soroban</span> para inclusión productiva en zonas rurales.
+        </p>
+
+        <div class="flex flex-wrap gap-2 font-mono text-xs">
+          <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted">Agrotech</span>
+          <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted">Energía Modular</span>
+          <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted">Piloto CampoAmigo</span>
+          <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted">Bitcoin / Liquid</span>
+          <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted">Stellar / Soroban</span>
+        </div>
+      </div>
+
+      <!-- Grid Inferior: Poligran Bitcoin Club + Hitos Internacionales -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle flex flex-col justify-between">
+          <div>
+            <div class="font-mono text-xs text-cyanTech mb-1">FUNDADOR · SEMILLERO ACADÉMICO</div>
+            <h3 class="text-xl font-semibold text-white mb-2">Poligran Bitcoin Club</h3>
+            <p class="text-sm text-slateMuted leading-relaxed">
+              Comunidad universitaria en el Politécnico Grancolombiano enfocada en investigación técnica, desarrollo sobre protocolos abiertos, redes de segunda capa (Layer 2) y soberanía digital.
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-borderSubtle">
+            <a href="https://github.com/PoligranBitcoinClub" target="_blank" rel="noopener noreferrer" class="font-mono text-xs text-emeraldTech hover:underline">
+              github.com/PoligranBitcoinClub ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg bg-surface border border-borderSubtle">
+          <div class="font-mono text-xs text-cyanTech mb-1">PROYECCIÓN &amp; ECOSISTEMA GLOBAL</div>
+          <h3 class="text-xl font-semibold text-white mb-3">Foros, Bootcamps &amp; Hackatones</h3>
+          <ul class="space-y-2.5 text-sm text-slateMuted">
+            <li class="flex items-start gap-2">
+              <span class="font-mono text-emeraldTech mt-0.5">→</span>
+              <span><strong class="text-slateText">Impacta Bootcamp (Stellar / BAF):</strong> Desarrollo de soluciones financieras abiertas con contratos inteligentes en Soroban.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="font-mono text-emeraldTech mt-0.5">→</span>
+              <span><strong class="text-slateText">HackMoney:</strong> Prototipado rápido en ecosistemas globales de finanzas descentralizadas.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="font-mono text-emeraldTech mt-0.5">→</span>
+              <span><strong class="text-slateText">Oslo Freedom Forum &amp; BTCPay Day (Praga):</strong> Participación internacional sobre derechos humanos, tecnología abierta e infraestructura de pagos soberana.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 // BITÁCORA VITAL (DIGITAL GARDEN) -->
+    <section id="bitacora" class="py-16 border-b border-borderSubtle/80">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="font-mono text-xs text-emeraldTech uppercase tracking-wider">04 // Digital Garden</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1" data-i18n="sec4_title">Bitácora Vital: Territorio, Viajes &amp; Depuración</h2>
+        </div>
+
+        <!-- Filtros por Categoría -->
+        <div class="flex flex-wrap gap-2 font-mono text-xs" id="logFilters">
+          <button type="button" data-filter="all" class="filter-btn px-3 py-1.5 rounded bg-emeraldTech text-obsidian font-semibold">Todas</button>
+          <button type="button" data-filter="travesias" class="filter-btn px-3 py-1.5 rounded bg-surface border border-borderSubtle text-slateMuted hover:text-white">Travesías &amp; Territorio</button>
+          <button type="button" data-filter="depuracion" class="filter-btn px-3 py-1.5 rounded bg-surface border border-borderSubtle text-slateMuted hover:text-white">Depuración Personal</button>
+          <button type="button" data-filter="estrategia" class="filter-btn px-3 py-1.5 rounded bg-surface border border-borderSubtle text-slateMuted hover:text-white">Ensayos &amp; Estrategia</button>
+        </div>
+      </div>
+
+      <!-- Lista de Entradas de Bitácora -->
+      <div class="space-y-4" id="logEntries">
+        <article data-category="travesias" class="log-card p-5 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/50 transition-colors cursor-pointer" onclick="openPost(0)">
+          <div class="flex flex-wrap items-center justify-between gap-2 font-mono text-xs mb-1.5">
+            <span class="text-emeraldTech">[Travesías &amp; Territorio]</span>
+            <span class="text-slateMuted">2026 · Nariño ↔ Medellín ↔ Praga</span>
+          </div>
+          <h3 class="text-lg font-semibold text-white hover:text-emeraldTech transition-colors">
+            De las montañas de Taminango a Praga: notas sobre infraestructura abierta y realidad rural
+          </h3>
+          <p class="text-sm text-slateMuted mt-1">
+            Reflexiones de campo tras contrastar la conversación global sobre protocolos abiertos en Europa con las necesidades reales de conectividad y energía en el sur de Colombia.
+          </p>
+        </article>
+
+        <article data-category="depuracion" class="log-card p-5 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/50 transition-colors cursor-pointer" onclick="openPost(1)">
+          <div class="flex flex-wrap items-center justify-between gap-2 font-mono text-xs mb-1.5">
+            <span class="text-cyanTech">[Depuración Personal]</span>
+            <span class="text-slateMuted">2026 · Sistema Operativo Vital</span>
+          </div>
+          <h3 class="text-lg font-semibold text-white hover:text-emeraldTech transition-colors">
+            Refactorizar la mente: disciplina, austeridad operativa y enfoque en tiempos de construcción
+          </h3>
+          <p class="text-sm text-slateMuted mt-1">
+            Cómo aplicar principios de ingeniería de sistemas —eliminar ruido, reducir dependencias innecesarias y mantener alta señal— al crecimiento personal y profesional.
+          </p>
+        </article>
+
+        <article data-category="estrategia" class="log-card p-5 rounded-lg bg-surface border border-borderSubtle hover:border-emeraldTech/50 transition-colors cursor-pointer" onclick="openPost(2)">
+          <div class="flex flex-wrap items-center justify-between gap-2 font-mono text-xs mb-1.5">
+            <span class="text-amber-400">[Ensayos &amp; Estrategia]</span>
+            <span class="text-slateMuted">2026 · Soberanía Digital</span>
+          </div>
+          <h3 class="text-lg font-semibold text-white hover:text-emeraldTech transition-colors">
+            Redes Mesh, IA local y finanzas abiertas como infraestructura pública para el agro
+          </h3>
+          <p class="text-sm text-slateMuted mt-1">
+            Por qué el diseño offline-first y los rieles financieros programables son clave para reducir costos de intermediación en economías campesinas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 05 // CONTACTO & VERIFICACIÓN TÉCNICA -->
+    <section id="contacto" class="py-16">
+      <div class="p-6 sm:p-8 rounded-xl bg-surface border border-borderSubtle flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+          <span class="font-mono text-xs text-emeraldTech uppercase tracking-wider">05 // Canal Directo</span>
+          <h2 class="text-2xl font-bold text-white mt-1">Construyamos infraestructura con propósito</h2>
+          <p class="text-sm text-slateMuted mt-2 max-w-xl">
+            Abierto a oportunidades en ingeniería Cloud/DevOps, proyectos de I+D+i, cooperación territorial y alianzas institucionales.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 font-mono text-xs w-full md:w-auto">
+          <a href="mailto:dsantacruz@poligran.edu.co" class="px-4 py-3 rounded bg-emeraldTech text-obsidian font-semibold text-center hover:bg-emerald-400 transition-colors">
+            dsantacruz@poligran.edu.co
+          </a>
+          <button type="button" onclick="copyHandle()" id="copyBtn" class="px-4 py-3 rounded bg-obsidian border border-borderSubtle text-slateText hover:border-cyanTech/60 transition-colors">
+            Copiar @politech-dev
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-12 pt-6 border-t border-borderSubtle/60 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-slateMuted">
+        <div>
+          © 2026 Diego Bayardo Santacruz Jurado · <span class="text-slateText">consejerodiego.me</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="inline-flex items-center gap-1.5 text-emeraldTech">
+            <span class="w-1.5 h-1.5 rounded-full bg-emeraldTech"></span> SSL/TLS Activo
+          </span>
+          <span>GitHub Pages Static Build</span>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Modal de Lectura de Bitácora -->
+  <div id="postModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="max-w-2xl w-full rounded-xl bg-surface border border-borderSubtle p-6 sm:p-8 shadow-2xl relative">
+      <button type="button" onclick="closePost()" class="absolute top-5 right-5 font-mono text-xs px-2.5 py-1 rounded bg-obsidian border border-borderSubtle text-slateMuted hover:text-white">
+        [ESC / Cerrar]
+      </button>
+      <div id="modalTag" class="font-mono text-xs text-emeraldTech mb-2"></div>
+      <h3 id="modalTitle" class="text-xl sm:text-2xl font-bold text-white mb-4"></h3>
+      <div id="modalBody" class="text-sm sm:text-base text-slateMuted space-y-4 leading-relaxed"></div>
+    </div>
+  </div>
+
+  <script>
+    // Contenido de ejemplo para el modal de Bitácora Vital
+    const posts = [
+      {
+        tag: '[Travesías & Territorio] · 2026',
+        title: 'De las montañas de Taminango a Praga: notas sobre infraestructura abierta y realidad rural',
+        body: [
+          'Viajar entre contextos profundamente distintos obliga a depurar cualquier discurso abstracto. En los foros internacionales se discute la arquitectura de protocolos globales; en los municipios rurales de Nariño, el reto cotidiano es la intermitencia eléctrica, la conectividad limitada y el acceso justo a mercados.',
+          'La verdadera innovación ocurre cuando logramos tender un puente entre ambos mundos: sistemas ligeros, resilientes y auditables que funcionen incluso bajo restricciones severas de ancho de banda.'
+        ]
+      },
+      {
+        tag: '[Depuración Personal] · 2026',
+        title: 'Refactorizar la mente: disciplina, austeridad operativa y enfoque en tiempos de construcción',
+        body: [
+          'En ingeniería de software, un sistema sobrecargado de dependencias innecesarias termina colapsando bajo presión. En la vida personal ocurre exactamente lo mismo.',
+          'Depurar hábitos, ordenar el conocimiento en estructuras claras y avanzar con rigor técnico incluso cuando los recursos materiales son escasos constituye la base de toda soberanía real.'
+        ]
+      },
+      {
+        tag: '[Ensayos & Estrategia] · 2026',
+        title: 'Redes Mesh, IA local y finanzas abiertas como infraestructura pública para el agro',
+        body: [
+          'El desarrollo territorial del siglo XXI requiere infraestructura digital pensada desde la periferia hacia el centro. Combinar nodos Linux de bajo consumo, redes Mesh privadas con Headscale y rieles de liquidación abierta permite a productores rurales operar con trazabilidad y autonomía.'
+        ]
+      }
+    ];
+
+    function openPost(index) {
+      const post = posts[index];
+      document.getElementById('modalTag').textContent = post.tag;
+      document.getElementById('modalTitle').textContent = post.title;
+      document.getElementById('modalBody').innerHTML = post.body.map(p => `<p>${p}</p>`).join('');
+      const modal = document.getElementById('postModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closePost() {
+      const modal = document.getElementById('postModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePost();
+    });
+
+    // Filtro de categorías de Bitácora
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const logCards = document.querySelectorAll('.log-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-emeraldTech', 'text-obsidian', 'font-semibold');
+          b.classList.add('bg-surface', 'border', 'border-borderSubtle', 'text-slateMuted');
+        });
+        btn.classList.remove('bg-surface', 'border', 'border-borderSubtle', 'text-slateMuted');
+        btn.classList.add('bg-emeraldTech', 'text-obsidian', 'font-semibold');
+
+        logCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Copiar handle
+    function copyHandle() {
+      navigator.clipboard.writeText('politech-dev');
+      const btn = document.getElementById('copyBtn');
+      btn.textContent = '¡Copiado: politech-dev!';
+      setTimeout(() => {
+        btn.textContent = 'Copiar @politech-dev';
+      }, 2000);
+    }
+
+    // Selector rápido ES / EN
+    let currentLang = 'es';
+    const translations = {
+      es: {
+        nav_contact: 'Contacto',
+        hero_badge: 'Disponible para arquitectura cloud, I+D+i y alianzas estratégicas',
+        hero_subtitle: 'Ingeniero de Software en formación (Poligran) · Cloud & Linux Infrastructure · Consejero Territorial de Planeación · Cofundador de Xiima Labs',
+        hero_pitch: 'Diseño infraestructura resiliente en la nube, redes soberanas y flujos de automatización con Inteligencia Artificial, conectando la ingeniería de software con el desarrollo rural, la transición energética y las finanzas abiertas desde Nariño hacia ecosistemas globales.',
+        cta_explore: 'Explorar Arquitectura ↓',
+        sec1_title: 'Ingeniería, Cloud & Sistemas Resilientes',
+        sec2_title: 'Liderazgo Territorial & Incidencia Institucional',
+        sec3_title: 'Ecosistema, Emprendimiento & Proyección Global',
+        sec4_title: 'Bitácora Vital: Territorio, Viajes & Depuración'
+      },
+      en: {
+        nav_contact: 'Contact',
+        hero_badge: 'Open to cloud architecture, R&D and strategic partnerships',
+        hero_subtitle: 'Software Engineering Student (Poligran) · Cloud & Linux Infrastructure · Territorial Planning Counselor · Co-founder at Xiima Labs',
+        hero_pitch: 'I architect resilient cloud infrastructure, sovereign mesh networks, and AI automation pipelines—bridging software engineering with rural development, energy transition, and open finance from Nariño to global ecosystems.',
+        cta_explore: 'Explore Architecture ↓',
+        sec1_title: 'Engineering, Cloud & Resilient Systems',
+        sec2_title: 'Territorial Leadership & Institutional Impact',
+        sec3_title: 'Ecosystem, Ventures & Global Projection',
+        sec4_title: 'Field Log: Territory, Travel & Personal Refactoring'
+      }
+    };
+
+    document.getElementById('langToggle').addEventListener('click', () => {
+      currentLang = currentLang === 'es' ? 'en' : 'es';
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[currentLang][key]) {
+          el.textContent = translations[currentLang][key];
+        }
+      });
+    });
+  </script>
 </body>
 </html>
